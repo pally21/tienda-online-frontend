@@ -1,0 +1,12 @@
+.registro-page {
+  min-height: calc(100vh - 200px);
+}
+
+.registro-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,37 @@
+.navbar-custom {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(135deg, #2d3e50, #34495e) !important;
+}
+
+.navbar-custom .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffb347 !important;
+}
+
+.navbar-custom .nav-link {
+  color: white !important;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffb347 !important;
+}
+
+.carrito-icon {
+  position: relative;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,28 @@
+.home-page {
+  background: white;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #2d3e50, #34495e);
+  color: white;
+  padding: 4rem 0;
+}
+
+.hero-image {
+  font-size: 15rem;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 4rem;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    font-size: 8rem;
+  }
+}

@@ -1,0 +1,34 @@
+.nosotros-page {
+  min-height: calc(100vh - 200px);
+}
+
+.about-image {
+  font-size: 15rem;
+  text-align: center;
+  color: #ffb347;
+}
+
+.value-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2d3e50;
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    font-size: 8rem;
+  }
+}

@@ -1,0 +1,17 @@
+.productos-page {
+  min-height: calc(100vh - 200px);
+}
+
+.search-input,
+.category-select {
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  padding: 0.75rem;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus,
+.category-select:focus {
+  border-color: #2d3e50;
+  box-shadow: 0 0 0 0.2rem rgba(45, 62, 80, 0.25);
+}
