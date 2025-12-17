@@ -4,25 +4,48 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
+  const usuarioStr = localStorage.getItem("usuario");
+  let nombreUsuario = null;
+  
+  try {
+    if (usuarioStr) {
+      const usuarioObj = JSON.parse(usuarioStr);
+      nombreUsuario = usuarioObj.nombre;
+    }
+  } catch (e) {
+    console.error("Error parsing usuario:", e);
+  }
+
   return (
     <div className="home-page">
       <div className="hero-section">
         <Container>
           <Row className="align-items-center min-vh-50">
             <Col lg={6}>
-              <h1 className="display-3 fw-bold mb-4">
-                Bienvenido a TiendaOnline
-              </h1>
+
+              {/* ⭐ Saludo personalizado si está logueado */}
+              {nombreUsuario ? (
+                <h1 className="display-3 fw-bold mb-4">
+                  Hola, {nombreUsuario}! 👋  
+                </h1>
+              ) : (
+                <h1 className="display-3 fw-bold mb-4">
+                  Bienvenido a TiendaOnline
+                </h1>
+              )}
+
               <p className="lead mb-4">
                 Descubre los mejores productos con la mejor calidad y precio.
                 Tu tienda online de confianza.
               </p>
+
               <Link to="/productos">
                 <Button variant="primary" size="lg">
                   Ver Productos
                 </Button>
               </Link>
             </Col>
+
             <Col lg={6}>
               <div className="hero-image">
                 🛍️

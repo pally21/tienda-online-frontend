@@ -1,0 +1,881 @@
+
+> tienda-online-react@0.1.0 start
+> BROWSER=chrome react-scripts start
+
+(node:11776) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:11776) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view tienda-online-react in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.10:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 10:77:  'recargarProductos' is assigned a value but never used  no-unused-vars
+  Line 18:10:  'tipoAlerta' is assigned a value but never used         no-unused-vars
+  Line 18:22:  'setTipoAlerta' is assigned a value but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 10:77:  'recargarProductos' is assigned a value but never used  no-unused-vars
+  Line 18:10:  'tipoAlerta' is assigned a value but never used         no-unused-vars
+  Line 18:22:  'setTipoAlerta' is assigned a value but never used      no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 52:7:  'mostrarMensaje' is not defined  no-undef
+  Line 55:9:  'mostrarMensaje' is not defined  no-undef
+  Line 59:7:  'mostrarMensaje' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 18:10:  'tipoAlerta' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 52:7:  'mostrarMensaje' is not defined  no-undef
+  Line 55:9:  'mostrarMensaje' is not defined  no-undef
+  Line 59:7:  'mostrarMensaje' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 18:10:  'tipoAlerta' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 18:10:  'tipoAlerta' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 10:77:  'recargarProductos' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 10:77:  'recargarProductos' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 187:29:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 99:9:  'handleEliminar' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 187:29:  Unexpected use of 'confirm'  no-restricted-globals
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 99:9:  'handleEliminar' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 99:9:  'handleEliminar' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 99:9:  'handleEliminar' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 99:9:  'handleEliminar' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 21:10:  'showConfirmDelete' is assigned a value but never used     no-unused-vars
+  Line 21:29:  'setShowConfirmDelete' is assigned a value but never used  no-unused-vars
+  Line 22:10:  'productoAEliminar' is assigned a value but never used     no-unused-vars
+  Line 22:29:  'setProductoAEliminar' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 21:10:  'showConfirmDelete' is assigned a value but never used     no-unused-vars
+  Line 21:29:  'setShowConfirmDelete' is assigned a value but never used  no-unused-vars
+  Line 22:10:  'productoAEliminar' is assigned a value but never used     no-unused-vars
+  Line 22:29:  'setProductoAEliminar' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 21:10:  'showConfirmDelete' is assigned a value but never used  no-unused-vars
+  Line 108:9:  'confirmarEliminar' is assigned a value but never used  no-unused-vars
+  Line 121:9:  'cancelarEliminar' is assigned a value but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 21:10:  'showConfirmDelete' is assigned a value but never used  no-unused-vars
+  Line 108:9:  'confirmarEliminar' is assigned a value but never used  no-unused-vars
+  Line 121:9:  'cancelarEliminar' is assigned a value but never used   no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/Admin.jsx
+  Line 21:10:  'showConfirmDelete' is assigned a value but never used  no-unused-vars
+  Line 108:9:  'confirmarEliminar' is assigned a value but never used  no-unused-vars
+  Line 121:9:  'cancelarEliminar' is assigned a value but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/Admin.jsx
+  Line 21:10:  'showConfirmDelete' is assigned a value but never used  no-unused-vars
+  Line 108:9:  'confirmarEliminar' is assigned a value but never used  no-unused-vars
+  Line 121:9:  'cancelarEliminar' is assigned a value but never used   no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Registro.jsx
+  Line 7:22:  'validarEmail' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Registro.jsx
+  Line 7:22:  'validarEmail' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/context/PedidosContext.js
+Syntax error: Unexpected token (137:6) (137:6)
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+ERROR in ./src/context/PedidosContext.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/usuario/tienda-online-react/src/context/PedidosContext.js: Unexpected token (137:6)
+
+  135 |   return context;
+  136 | };
+> 137 |       }}
+      |       ^
+  138 |     >
+  139 |       {children}
+  140 |     </PedidosContext.Provider>
+    at constructor (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:367:19)
+    at FlowParserMixin.raise (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:6630:19)
+    at FlowParserMixin.unexpected (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:6650:16)
+    at FlowParserMixin.parseExprAtom (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:11451:16)
+    at FlowParserMixin.parseExprAtom (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:4797:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:11085:23)
+    at FlowParserMixin.parseUpdate (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:11070:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:11050:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10903:61)
+    at FlowParserMixin.parseExprOps (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10908:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10885:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10835:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:3582:18)
+    at FlowParserMixin.parseExpressionBase (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10788:23)
+    at /Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10784:39
+    at FlowParserMixin.allowInAnd (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:12431:16)
+    at FlowParserMixin.parseExpression (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:10784:17)
+    at FlowParserMixin.parseStatementContent (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:12904:23)
+    at FlowParserMixin.parseStatementLike (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:12776:17)
+    at FlowParserMixin.parseStatementLike (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:2949:24)
+    at FlowParserMixin.parseModuleItem (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:12753:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:13325:36)
+    at FlowParserMixin.parseBlockBody (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:13318:10)
+    at FlowParserMixin.parseProgram (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:12634:10)
+    at FlowParserMixin.parseTopLevel (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:12624:25)
+    at FlowParserMixin.parseTopLevel (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:3718:28)
+    at FlowParserMixin.parse (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:14501:10)
+    at parse (/Users/usuario/tienda-online-react/node_modules/@babel/parser/lib/index.js:14535:38)
+    at parser (/Users/usuario/tienda-online-react/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/usuario/tienda-online-react/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/usuario/tienda-online-react/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/Users/usuario/tienda-online-react/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/Users/usuario/tienda-online-react/node_modules/gensync/index.js:261:32)
+    at /Users/usuario/tienda-online-react/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/usuario/tienda-online-react/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/context/PedidosContext.js
+  Line 137:6:  Parsing error: Unexpected token (137:6)
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Checkout/Checkout.jsx
+  Line 25:10:  'procesando' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setProcesando' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Checkout/Checkout.jsx
+  Line 25:10:  'procesando' is assigned a value but never used     no-unused-vars
+  Line 25:22:  'setProcesando' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Checkout/Checkout.jsx
+  Line 25:10:  'procesando' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Checkout/Checkout.jsx
+  Line 25:10:  'procesando' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Checkout/Checkout.jsx
+  Line 25:10:  'procesando' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Checkout/Checkout.jsx
+  Line 25:10:  'procesando' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 20:8:  'AdminPedidos' is defined but never used  no-unused-vars
+
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 20:8:  'AdminPedidos' is defined but never used  no-unused-vars
+
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/CarritoContext.js
+  Line 1:54:  'useEffect' is defined but never used  no-unused-vars
+
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 3:10:  'usePedidos' is defined but never used                                                                            no-unused-vars
+  Line 8:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 19:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 7:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 7:11:  'usuario' is assigned a value but never used                                                                      no-unused-vars
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/PedidosContext.js
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/context/PedidosContext.js
+  Line 1:65:  'useCallback' is defined but never used                                                                           no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/context/PedidosContext.js
+  Line 1:65:  'useCallback' is defined but never used                                                                           no-unused-vars
+  Line 17:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/pages/Admin/AdminPedidos.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/AdminPedidos.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/AdminPedidos.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/pages/Admin/AdminPedidos.jsx
+  Line 1:38:  'useCallback' is defined but never used                                                                           no-unused-vars
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/pages/Admin/AdminPedidos.jsx
+  Line 1:38:  'useCallback' is defined but never used                                                                           no-unused-vars
+  Line 18:6:  React Hook useEffect has a missing dependency: 'cargarPedidos'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully

@@ -1,26 +1,35 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import ProductCard from '../components/ProductCard/ProductCard';
-import { productos } from '../data/productos';
+import { useProductos } from '../context/ProductosContext';
 import './Productos.css';
 
 const Productos = () => {
+  const { productos, cargando, error } = useProductos();
+
   const [filtroCategoria, setFiltroCategoria] = useState('todos');
   const [busqueda, setBusqueda] = useState('');
+
+  if (cargando) return <h3 className="text-center mt-5">Cargando productos...</h3>;
+  if (error) return <h3 className="text-center mt-5 text-danger">{error}</h3>;
 
   const categorias = ['todos', ...new Set(productos.map(p => p.categoria))];
 
   const productosFiltrados = productos.filter(producto => {
-    const coincideCategoria = filtroCategoria === 'todos' || producto.categoria === filtroCategoria;
-    const coincideBusqueda = producto.nombre.toLowerCase().includes(busqueda.toLowerCase()) ||
-                             producto.descripcion.toLowerCase().includes(busqueda.toLowerCase());
+    const coincideCategoria =
+      filtroCategoria === 'todos' || producto.categoria === filtroCategoria;
+
+    const coincideBusqueda =
+      producto.nombre.toLowerCase().includes(busqueda.toLowerCase()) ||
+      producto.descripcion.toLowerCase().includes(busqueda.toLowerCase());
+
     return coincideCategoria && coincideBusqueda;
   });
 
   return (
     <Container className="productos-page py-5">
       <h1 className="text-center mb-4">Nuestros Productos</h1>
-      
+
       <Row className="mb-4">
         <Col md={6}>
           <Form.Control
@@ -31,6 +40,7 @@ const Productos = () => {
             className="search-input"
           />
         </Col>
+
         <Col md={6}>
           <Form.Select
             value={filtroCategoria}

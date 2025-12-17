@@ -1,77 +1,102 @@
-import React, { useState } from 'react';
-import { Container, Form, Button, Alert } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
-import './Login.css';
+import React, { useState } from "react";
+import { Container, Row, Col, Form, Button, Alert } from "react-bootstrap";
+import "./Login.css";
+import { useAuth } from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
-  const [formData, setFormData] = useState({
-    email: '',
-    password: ''
-  });
-  const [error, setError] = useState('');
+  const { login } = useAuth();
+  
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [cargando, setCargando] = useState(false);
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
+  const manejarSubmit = async (e) => {
     e.preventDefault();
-    setError('');
+    setError("");
+    setCargando(true);
 
-    // Simulación de login (en producción validarías contra backend)
-    if (formData.email && formData.password) {
-      alert('¡Login exitoso!');
-      navigate('/');
-    } else {
-      setError('Por favor completa todos los campos');
+    try {
+      await login(email, password);
+      navigate("/");
+    } catch (err) {
+      setError(err.message || "Credenciales incorrectas");
+    } finally {
+      setCargando(false);
     }
   };
 
   return (
-    <Container className="login-page py-5">
-      <div className="login-container">
-        <h2 className="text-center mb-4">Iniciar Sesión</h2>
+    <Container className="login-page">
+      <Row className="align-items-center">
         
-        {error && <Alert variant="danger">{error}</Alert>}
+        {/* Imagen lado izquierdo */}
+        <Col md={6} className="login-img-container">
+          <img
+            src="https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7963.jpg"
+            alt="login"
+            className="login-img"
+          />
+        </Col>
 
-        <Form onSubmit={handleSubmit}>
-          <Form.Group className="mb-3">
-            <Form.Label>Correo Electrónico</Form.Label>
-            <Form.Control
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              placeholder="tu@email.com"
-              required
-            />
-          </Form.Group>
+        {/* Formulario */}
+        <Col md={6}>
+          <div className="card-form">
+            <h2 className="text-center mb-4">Iniciar Sesión</h2>
 
-          <Form.Group className="mb-3">
-            <Form.Label>Contraseña</Form.Label>
-            <Form.Control
-              type="password"
-              name="password"
-              value={formData.password}
-              onChange={handleChange}
-              placeholder="Tu contraseña"
-              required
-            />
-          </Form.Group>
+            {error && <Alert variant="danger">{error}</Alert>}
 
-          <Button type="submit" variant="primary" className="w-100 mb-3">
-            Iniciar Sesión
-          </Button>
+            <Alert variant="info">
+              <strong>Demo Admin:</strong> admin@tienda.com / admin123
+            </Alert>
 
-          <div className="text-center">
-            <p>¿No tienes cuenta? <Link to="/registro">Regístrate aquí</Link></p>
+            <Form onSubmit={manejarSubmit}>
+              <Form.Group className="mb-3">
+                <Form.Label>Correo Electrónico</Form.Label>
+                <Form.Control
+                  type="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="ejemplo@correo.com"
+                  disabled={cargando}
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-4">
+                <Form.Label>Contraseña</Form.Label>
+                <Form.Control
+                  type="password"
+                  required
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="********"
+                  disabled={cargando}
+                />
+              </Form.Group>
+
+              <Button 
+                type="submit" 
+                className="w-100" 
+                size="lg"
+                disabled={cargando}
+              >
+                {cargando ? "Iniciando..." : "Ingresar"}
+              </Button>
+            </Form>
+
+            <p className="text-center mt-3">
+              ¿No tienes cuenta?{" "}
+              <a href="/registro" className="link">
+                Regístrate aquí
+              </a>
+            </p>
+
           </div>
-        </Form>
-      </div>
+        </Col>
+      </Row>
     </Container>
   );
 };

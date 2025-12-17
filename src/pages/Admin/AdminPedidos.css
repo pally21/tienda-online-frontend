@@ -1,0 +1,67 @@
+/* Admin Pedidos Styles */
+
+.table {
+  vertical-align: middle;
+}
+
+.table-light {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.table-responsive {
+  border-radius: 0.25rem;
+}
+
+/* Modal Styles */
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.modal-title {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Code style for tracking number */
+code {
+  background-color: #f8f9fa;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: #e83e8c;
+  font-weight: 500;
+}
+
+/* Datos de envío y información cards */
+.table-light th {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.75rem;
+}
+
+.table-light td {
+  padding: 0.75rem;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .table {
+    font-size: 0.875rem;
+  }
+  
+  .table-responsive {
+    font-size: 0.8rem;
+  }
+  
+  .badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.5rem;
+  }
+}

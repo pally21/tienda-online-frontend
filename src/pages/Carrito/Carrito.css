@@ -1,0 +1,57 @@
+.carrito-page {
+  padding: 20px 0;
+  min-height: 70vh;
+}
+
+.carrito-vacio {
+  padding: 60px 0;
+  min-height: 60vh;
+}
+
+.carrito-vacio-icon {
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.carrito-page .card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.carrito-page .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.cantidad-control {
+  gap: 5px;
+}
+
+.cantidad-control input::-webkit-outer-spin-button,
+.cantidad-control input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cantidad-control input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.resumen-compra {
+  background-color: #f8f9fa;
+}
+
+.resumen-compra .card-body {
+  padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .carrito-page .table {
+    font-size: 0.9rem;
+  }
+  
+  .carrito-page .table img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}

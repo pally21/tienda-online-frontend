@@ -1,27 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
-}
-
-.App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
+/* Espacio global para evitar que el navbar tape contenido */
 .main-content {
-  flex: 1;
-  padding-top: 70px;
+  padding-top: 90px;
 }
 
-@media (max-width: 768px) {
-  .main-content {
-    padding-top: 60px;
-  }
+/* Estilo de fondo general */
+body {
+  background-color: #f7f9fc !important;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Contenedores más espaciosos */
+.container,
+.container-lg,
+.container-md {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Tarjetas modernas */
+.card-form {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.08);
 }

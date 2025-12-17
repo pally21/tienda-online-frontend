@@ -1,15 +1,13 @@
 .login-page {
-  min-height: calc(100vh - 200px);
+  min-height: 80vh;
+}
+
+.login-img-container {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.login-container {
-  max-width: 450px;
-  width: 100%;
-  padding: 2rem;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+.login-img {
+  max-width: 90%;
+  border-radius: 12px;
 }

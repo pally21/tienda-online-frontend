@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico - Tienda Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #007bff;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .status.ok {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .status.warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .steps {
+            list-style: none;
+            padding: 0;
+        }
+        .steps li {
+            padding: 10px;
+            margin: 5px 0;
+            background: white;
+            border-left: 3px solid #28a745;
+        }
+        .steps li::before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Diagnóstico - Tienda Online React</h1>
+
+        <div class="section">
+            <h2>Estado Actual del Sistema</h2>
+            <p>
+                Backend: <span class="status ok">✓ ACTIVO</span>
+                Frontend: <span class="status ok">✓ ACTIVO</span>
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Si la página está en blanco:</h2>
+            <ol class="steps">
+                <li><strong>Abre la consola del navegador</strong>
+                    <br/>Presiona: <code>F12</code> o <code>Cmd+Option+I</code> (Mac)
+                </li>
+                <li><strong>Busca mensajes de error en rojo</strong>
+                    <br/>Los errores te dirán exactamente qué está mal
+                </li>
+                <li><strong>Revisa la pestaña "Network"</strong>
+                    <br/>Mira si las peticiones a <code>http://localhost:3001</code> están funcionando
+                </li>
+                <li><strong>Refresca la página</strong>
+                    <br/>Presiona: <code>Cmd+R</code> (Mac) o <code>Ctrl+R</code> (Windows)
+                </li>
+                <li><strong>Si persiste, revisa el archivo de logs del backend</strong>
+                    <br/>Terminal: <code>cd backend && tail -f server.log</code>
+                </li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Problemas Comunes y Soluciones</h2>
+            
+            <h3>❌ Problema: "Cannot GET /api"</h3>
+            <p><strong>Solución:</strong> El backend no está corriendo. Ejecuta:</p>
+            <code>cd /Users/usuario/tienda-online-react/backend && nohup node server-demo.js > server.log 2>&1 &</code>
+
+            <h3>❌ Problema: "TypeError: Cannot read property 'children'"</h3>
+            <p><strong>Solución:</strong> Hay un problema en AuthProvider. Revisa que esté correctamente cerrado.</p>
+
+            <h3>❌ Problema: Página blanca con "Cargando..."</h3>
+            <p><strong>Solución:</strong> El componente está intentando cargar. Espera 3-5 segundos.</p>
+
+            <h3>❌ Problema: Token inválido o expirado</h3>
+            <p><strong>Solución:</strong> Abre la consola y ejecuta:</p>
+            <code>localStorage.clear()</code>
+            <p>Luego recarga la página y vuelve a hacer login.</p>
+        </div>
+
+        <div class="section">
+            <h2>Comandos Útiles para Debugging</h2>
+            <p>Ejecuta estos en la consola del navegador (F12):</p>
+            <ul>
+                <li><code>localStorage.getItem('token')</code> - Ver token JWT</li>
+                <li><code>localStorage.getItem('usuario')</code> - Ver datos del usuario</li>
+                <li><code>localStorage.getItem('role')</code> - Ver rol actual</li>
+                <li><code>localStorage.clear()</code> - Limpiar todo (logout forzado)</li>
+                <li><code>fetch('http://localhost:3001/api/productos').then(r => r.json()).then(d => console.log(d))</code> - Probar API</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Verificar Backend</h2>
+            <p>Abre una nueva terminal y ejecuta:</p>
+            <code>curl http://localhost:3001/api/productos</code>
+            <p>Si devuelve JSON con productos, el backend está bien.</p>
+        </div>
+
+        <div class="section">
+            <h2>Reiniciar Todo (Opción Nuclear)</h2>
+            <ol class="steps">
+                <li>Cierra todas las terminales (Ctrl+C en cada una)</li>
+                <li>Espera 5 segundos</li>
+                <li>Ejecuta en terminal 1:
+                    <br/><code>cd /Users/usuario/tienda-online-react/backend && nohup node server-demo.js > server.log 2>&1 &</code>
+                </li>
+                <li>Ejecuta en terminal 2:
+                    <br/><code>cd /Users/usuario/tienda-online-react && npm start</code>
+                </li>
+                <li>Espera a que el navegador se abra automáticamente</li>
+                <li>Si sigue en blanco, abre la consola (F12) y busca el error</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Próximo Paso</h2>
+            <p>
+                <strong>Una vez que la página cargue correctamente:</strong><br/>
+                Haz clic en "Iniciar Sesión" e ingresa:<br/>
+                📧 Email: <code>admin@tienda.com</code><br/>
+                🔐 Contraseña: <code>admin123</code>
+            </p>
+        </div>
+
+        <hr style="margin: 30px 0;">
+
+        <p style="text-align: center; color: #666;">
+            Si los pasos anteriores no funcionan, contacta al desarrollador con el error exacto de la consola (F12).
+        </p>
+    </div>
+</body>
+</html>

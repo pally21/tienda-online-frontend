@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { useCarrito } from '../../context/CarritoContext';
 import './ProductCard.css';
 
 const ProductCard = ({ producto }) => {
   const { agregarAlCarrito } = useCarrito();
+  const [agregado, setAgregado] = useState(false);
 
   const handleAgregar = () => {
     agregarAlCarrito(producto);
-    alert(`${producto.nombre} agregado al carrito`);
+    
+    // Mostrar feedback visual
+    setAgregado(true);
+    setTimeout(() => setAgregado(false), 1500);
   };
 
   return (
@@ -16,9 +20,13 @@ const ProductCard = ({ producto }) => {
       <div className="product-image-container">
         <Card.Img 
           variant="top" 
-          src={producto.imagen || 'https://via.placeholder.com/300'} 
+          src={producto.imagen || 'https://via.placeholder.com/400x400?text=Sin+imagen'} 
           alt={producto.nombre}
           className="product-image"
+          onError={(e) => {
+            // Si la imagen no carga, usar un placeholder
+            e.target.src = 'https://via.placeholder.com/400x400?text=' + encodeURIComponent(producto.nombre);
+          }}
         />
       </div>
       <Card.Body className="d-flex flex-column">
@@ -31,11 +39,11 @@ const ProductCard = ({ producto }) => {
             ${producto.precio.toLocaleString('es-CL')}
           </div>
           <Button 
-            variant="primary" 
+            variant={agregado ? "success" : "primary"} 
             className="w-100 btn-agregar"
             onClick={handleAgregar}
           >
-            Agregar al Carrito
+            {agregado ? "✅ Agregado" : "Agregar al Carrito"}
           </Button>
         </div>
       </Card.Body>
