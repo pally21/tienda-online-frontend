@@ -1,0 +1,2 @@
+Frontend: https://github.com/tu-usuario/tienda-online-react
+Backend: https://github.com/tu-usuario/tienda-online-backend
