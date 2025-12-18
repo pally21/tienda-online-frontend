@@ -1,2 +1,2 @@
-Frontend: https://github.com/tu-usuario/tienda-online-react
-Backend: https://github.com/tu-usuario/tienda-online-backend
+Frontend: https://github.com/pally21/tienda-online-frontend.git
+Backend: https://github.com/pally21/tienda-online-back.git
